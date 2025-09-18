@@ -1,0 +1,93 @@
+{ "Bostader": [ 
+  {
+    "titel": "Modern lägenhet i centrala Stockholm",
+    "beskrivning": "En ljus och rymlig 2:a med öppen planlösning, balkong och närhet till kollektivtrafik.",
+    "pris": 5200000,
+    "bild": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg"
+  },
+  {
+    "titel": "Charmigt hus vid sjön i Dalarna",
+    "beskrivning": "Mysigt trähus med sjöutsikt, stor tomt och egen brygga. Perfekt för familjen.",
+    "pris": 3400000,
+    "bild": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg"
+  },
+  {
+    "titel": "Nyproducerad bostadsrätt i Malmö",
+    "beskrivning": "Fräsch 3:a med moderna materialval, balkong mot innergård och garageplats.",
+    "pris": 2800000,
+    "bild": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg"
+  },
+  {
+    "titel": "Lyxvilla på Västkusten",
+    "beskrivning": "Exklusiv villa med havsutsikt, pool, spa och stor terrass. Unikt läge.",
+    "pris": 12500000,
+    "bild": "https://example.com/images/villa-vastkusten.jpg"
+  },
+  {
+    "titel": "Mysig fjällstuga i Sälen",
+    "beskrivning": "Trästuga nära skidbackarna med öppen spis, bastu och 8 bäddar.",
+    "pris": 1950000,
+    "bild": "https://example.com/images/fjallstuga-salen.jpg"
+  },
+  {
+    "titel": "Vindsvåning i Göteborg",
+    "beskrivning": "Unik vindsvåning med takbjälkar, öppen planlösning och utsikt över staden.",
+    "pris": 6700000,
+    "bild": "https://example.com/images/vindsvaning-goteborg.jpg"
+  },
+  {
+    "titel": "Radhus i Uppsala",
+    "beskrivning": "Familjevänligt radhus med tre sovrum, egen trädgård och garage.",
+    "pris": 4100000,
+    "bild": "https://example.com/images/radhus-uppsala.jpg"
+  },
+  {
+    "titel": "Sekelskifteslägenhet i Örebro",
+    "beskrivning": "Vacker lägenhet med kakelugnar, högt i tak och originaldetaljer.",
+    "pris": 3600000,
+    "bild": "https://example.com/images/sekelskifte-orebro.jpg"
+  },
+  {
+    "titel": "Fritidshus på Gotland",
+    "beskrivning": "Sommarhus med stor altan, närhet till stranden och lantlig charm.",
+    "pris": 2300000,
+    "bild": "https://example.com/images/fritidshus-gotland.jpg"
+  },
+  {
+    "titel": "Studentlägenhet i Lund",
+    "beskrivning": "Smart planerad etta nära universitetet, perfekt för studenter.",
+    "pris": 1250000,
+    "bild": "https://example.com/images/student-lund.jpg"
+  },
+  {
+    "titel": "Villa i Västerås",
+    "beskrivning": "Stor villa med fem sovrum, dubbelgarage och närhet till skola.",
+    "pris": 4900000,
+    "bild": "https://example.com/images/villa-vasteras.jpg"
+  },
+  {
+    "titel": "Penthouse i Norrköping",
+    "beskrivning": "Lyxig toppvåning med panoramautsikt, stor takterrass och exklusiva material.",
+    "pris": 8800000,
+    "bild": "https://example.com/images/penthouse-norrkoping.jpg"
+  },
+  {
+    "titel": "Torparstuga i Småland",
+    "beskrivning": "Rustik stuga med vedeldad spis, fruktträdgård och lugnt läge.",
+    "pris": 1600000,
+    "bild": "https://example.com/images/torp-smaland.jpg"
+  },
+  {
+    "titel": "Modern villa i Linköping",
+    "beskrivning": "Nybyggd villa med energieffektiva lösningar, pool och öppen planlösning.",
+    "pris": 7200000,
+    "bild": "https://example.com/images/villa-linkoping.jpg"
+  },
+  {
+    "titel": "Skärgårdshus i Stockholm",
+    "beskrivning": "Hus på ö med egen brygga, båtplats och fantastisk havsutsikt.",
+    "pris": 9500000,
+    "bild": "https://example.com/images/skargard-stockholm.jpg"
+  }
+]
+}
