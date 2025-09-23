@@ -57,6 +57,18 @@
     <footer>
         <p></p>
     </footer>
-    <script src="Bostader.js"></script>
+    <script type="module">
+        //för kunna skapa olika mvc objekt måste vi importerat dessa klasser.
+        import {ModelBostad} from "./Crudbostad.js";
+        import {ViewBostad} from "./Viewbostad.js";
+        import {ControllerBostad} from "./Controllerbostad.js";
+        //initierar MVC
+        document.addEventListener("DOMContentLoaded", () => {
+            //efter att importerat kan vi instansierar mvc objekten.
+            const model = new ModelBostad();
+            const view = new ViewBostad();
+            const controller = new ControllerBostad(model, view);
+        });
+    </script>
 </body>
 </html>
