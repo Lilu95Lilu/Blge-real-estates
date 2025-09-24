@@ -1,4 +1,4 @@
-import Bostad from "./Bostad.js";
+import { Bostad } from "./Bostad.js";
 
 export class ModelBostad {
   constructor() {
@@ -14,11 +14,13 @@ export class ModelBostad {
       // Omvandla svaret till JSON
       const data = await response.json();
 
-      this.bostader = data.map(bostad => new Bostad(bostad.titel, bostad.bild, bostad.beskrivning, bostad.pris));
+      this.bostader = data.Bostader.map(bostad => new Bostad(bostad.id, bostad.titel, bostad.bild, bostad.beskrivning, bostad.pris));
+
       return this.bostader;
 
     } catch (error) {
       console.error('Fel vid hämtning av bostäder:', error);
+      return [];
     }
   }
 

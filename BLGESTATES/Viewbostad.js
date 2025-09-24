@@ -8,13 +8,11 @@ export class ViewBostad {
   displayBostader(Bostader) {
     
     const cards = Bostader.map(bostad => `
-            <div class="row">
-                <div class="container-md col card mb-4" style="width: 18rem;">
+                <div class="card mb-4" style="width: 18rem;" data-id="${bostad.id}">
                     <h5 class="card-title">${bostad.titel}</h5>
                     <img src="${bostad.bild}" class="card-img-top">
-                    <button class= btn till-bostad>Till bostad</button>
-                </div>
-            </div>`).join('');
+                    <button class="btn till-bostad">Till bostad</button>
+                </div>`).join('');
 
     this.container.innerHTML = cards;
 }

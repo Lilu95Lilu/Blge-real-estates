@@ -1,11 +1,16 @@
-class ControllerBostad {
+export class ControllerBostad {
     constructor(model, view) {
         this.model = model;
         this.view = view;
 
         this.initCustomEventListeners();
-        this.view.render(this.model.hamtaBostader());
+        this.laddaBostader();
         
+    }
+
+    async laddaBostader() {
+        const bostader = await this.model.hamtaBostader();
+        this.view.displayBostader(bostader);
     }
 
     initCustomEventListeners() {
