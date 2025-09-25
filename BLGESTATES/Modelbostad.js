@@ -3,6 +3,7 @@ import { Bostad } from "./Bostad.js";
 export class ModelBostad {
   constructor() {
     this.bostader = [];
+    this.faq = [];
   }
 
   async hamtaBostader() {
@@ -14,12 +15,31 @@ export class ModelBostad {
       // Omvandla svaret till JSON
       const data = await response.json();
 
-      this.bostader = data.Bostader.map(bostad => new Bostad(bostad.id, bostad.titel, bostad.bild, bostad.beskrivning, bostad.pris));
+      this.bostader = data.Bostader.map(bostad => 
+      new Bostad(bostad.id, bostad.titel, bostad.bild, bostad.beskrivning, bostad.pris, bostad.kontakt, bostad.kbeskrivning));
 
       return this.bostader;
 
     } catch (error) {
       console.error('Fel vid hämtning av bostäder:', error);
+      return [];
+    }
+  }
+
+  async hamtaFAQ() {
+    try {
+      const response = await fetch('FAQ.json');
+      if (!response.ok) {
+        throw new Error('Nätverksfel' + response.status);
+      }
+      const data = await response.json();
+
+      this.faq = data.faq;
+
+      return this.faq;
+
+    } catch (error) {
+      console.error('Fel vid hämtning av FAQ:', error);
       return [];
     }
   }

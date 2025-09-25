@@ -5,12 +5,18 @@ export class ControllerBostad {
 
         this.initCustomEventListeners();
         this.laddaBostader();
+        this.laddaFAQ();
         
     }
 
     async laddaBostader() {
         const bostader = await this.model.hamtaBostader();
         this.view.displayBostader(bostader);
+    }
+
+    async laddaFAQ() {
+        const faq = await this.model.hamtaFAQ();
+        this.view.displayFAQ(faq);
     }
 
     initCustomEventListeners() {
