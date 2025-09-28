@@ -6,12 +6,23 @@ export class ControllerBostad {
         this.initCustomEventListeners();
         this.laddaBostader();
         this.laddaFAQ();
-        
+        this.laddaKarusell();
+        this.laddaTooltip();
     }
 
     async laddaBostader() {
         const bostader = await this.model.hamtaBostader();
         this.view.displayBostader(bostader);
+    }
+
+    async laddaKarusell() {
+        const bostader = await this.model.hamtaBostader();
+        this.view.displayKarusell(bostader);
+    }
+
+    async laddaTooltip() {
+        const tooltip = await this.model.hamtaTooltip();
+        this.view.displayTooltip(tooltip);
     }
 
     async laddaFAQ() {
@@ -26,5 +37,5 @@ export class ControllerBostad {
                 this.view.openModal(infobostad);
             }
         });
-}
+    }
 }

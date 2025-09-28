@@ -4,6 +4,7 @@ export class ModelBostad {
   constructor() {
     this.bostader = [];
     this.faq = [];
+    this.tooltip = [];
   }
 
   async hamtaBostader() {
@@ -15,8 +16,8 @@ export class ModelBostad {
       // Omvandla svaret till JSON
       const data = await response.json();
 
-      this.bostader = data.Bostader.map(bostad => 
-      new Bostad(bostad.id, bostad.titel, bostad.bild, bostad.beskrivning, bostad.pris, bostad.kontakt, bostad.kbeskrivning));
+      this.bostader = data.Bostader.map(bostad =>
+        new Bostad(bostad.id, bostad.titel, bostad.bild, bostad.beskrivning, bostad.pris, bostad.kontakt, bostad.kbeskrivning));
 
       return this.bostader;
 
@@ -34,7 +35,7 @@ export class ModelBostad {
       }
       const data = await response.json();
 
-      this.faq = data.faq;
+      this.faq = data.FAQ;
 
       return this.faq;
 
@@ -44,7 +45,24 @@ export class ModelBostad {
     }
   }
 
-  hitta(id) {
-        return this.bostader.find(bostad => bostad.id === id);
+  async hamtaTooltip() {
+    try {
+      const response = await fetch('Tooltip.json');
+      if (!response.ok) {
+        throw new Error('Nätverksfel' + response.status);
+      }
+      const data = await response.json();
+      this.tooltip = data.Tooltip;
+
+      return this.tooltip;
+
+    } catch (error) {
+      console.error('Fel vid hämtning av Tooltip:', error);
+      return [];
     }
+  }
+
+  hitta(id) {
+    return this.bostader.find(bostad => bostad.id === id);
+  }
 }
