@@ -45,6 +45,24 @@ export class ModelBostad {
     }
   }
 
+  async hamtaTjanster() {
+    try {
+      const response = await fetch('Tjanster.json');
+      if (!response.ok) {
+        throw new Error('Nätverksfel' + response.status);
+      }
+      const data = await response.json();
+
+      this.tjanster = data.tjanster;
+
+      return this.tjanster;
+
+    } catch (error) {
+      console.error('Fel vid hämtning av Tjänster:', error);
+      return [];
+    }
+  }
+
   async hamtaTooltip() {
     try {
       const response = await fetch('Tooltip.json');

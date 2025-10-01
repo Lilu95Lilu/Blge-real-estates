@@ -9,13 +9,14 @@
     <title>BLGE ESTATES</title>
     <style>
         /* Chatgpt hjälpte oss med att sätta färg på pilarna */
-        .carousel-control-prev-icon, .carousel-control-next-icon {
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
             filter: invert(29%) sepia(94%) saturate(7485%) hue-rotate(211deg) brightness(93%) contrast(101%);
         }
     </style>
 </head>
 
-<body>
+<body class="bg-primary bg-opacity-10">
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
 
         <div class="container-fluid">
@@ -28,7 +29,7 @@
                     <a class="nav-link" href="./FAQ.html">Om Oss</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Tjänster</a>
+                    <a class="nav-link" href="./Tjanster.html">Tjänster</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./Bostader.html">Bostäder</a>
@@ -40,12 +41,12 @@
         </div>
     </nav>
     <header>
-        <h1>BLGE ESTATES</h1>
+        <div class="pt-2"></div>
     </header>
-    <main>
-        <div class="container my-5">
-            <h1 class="text-center mb-4">Bostäder Till Salu</h1>
-            <div class="carousel-indicators">
+    <main class="pt-5">
+        <div class="container">
+            <h1 class="text-center fw-bold mt-4">Bostäder Till Salu</h1>
+            <div class="carousel-indicators view-button" data-id="2">
                 <button type="button" data-bs-target="#bostadCarousel" data-bs-slide-to="0" class="active bg-primary"></button>
                 <button type="button" data-bs-target="#bostadCarousel" data-bs-slide-to="1" class="bg-primary"></button>
                 <button type="button" data-bs-target="#bostadCarousel" data-bs-slide-to="2" class="bg-primary"></button>
@@ -61,6 +62,27 @@
             <button class="carousel-control-next" type="button" data-bs-target="#bostadCarousel" data-bs-slide="next">
                 <span class="carousel-control-next-icon view-button" data-id="1"></span>
             </button>
+            <div class="text-center fixed-bottom mb-5">
+                <button type="button" class="btn btn-outline-primary">
+                    <a class="btn text-primary" href="./Bostader.html">Till Alla Bostäder</a>
+                </button>
+            </div>
+        </div>
+        <div class="modal fade" id="bostadModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Bostad</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" id="bostaddetaljer">
+                        <!-- Modalen blir ifylld av javascriptkoden här -->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <footer>

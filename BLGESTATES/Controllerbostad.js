@@ -8,6 +8,7 @@ export class ControllerBostad {
         this.laddaFAQ();
         this.laddaKarusell();
         this.laddaTooltip();
+        this.laddaTjanster();
     }
 
     async laddaBostader() {
@@ -28,6 +29,11 @@ export class ControllerBostad {
     async laddaFAQ() {
         const faq = await this.model.hamtaFAQ();
         this.view.displayFAQ(faq);
+    }
+
+    async laddaTjanster() {
+        const tjanster = await this.model.hamtaTjanster();
+        this.view.displaytjanster(tjanster);
     }
 
     initCustomEventListeners() {

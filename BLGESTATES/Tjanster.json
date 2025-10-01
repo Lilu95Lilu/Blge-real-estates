@@ -1,0 +1,24 @@
+{
+  "tjanster": [
+    {
+      "tjanst": "Professionell fotografering",
+      "beskrivning": "Vi erbjuder professionell fotografering och drönarbilder för att visa bostaden från sin bästa sida."
+    },
+    {
+      "tjanst": "Digital marknadsföring",
+      "beskrivning": "Vi marknadsför bostäder via Hemnet, sociala medier och vår egen hemsida för att nå flest möjliga köpare."
+    },
+    {
+      "tjanst": "Juridisk rådgivning",
+      "beskrivning": "Vi hjälper till med alla juridiska dokument och kontrakt för en trygg och säker bostadsaffär."
+    },
+    {
+      "tjanst": "Visningar och privatvisningar",
+      "beskrivning": "Vi arrangerar både öppna visningar och privata visningar efter överenskommelse med säljaren."
+    },
+    {
+      "tjanst": "Fri värdering",
+      "beskrivning": "Vi erbjuder alltid en kostnadsfri värdering av din bostad inför en eventuell försäljning."
+    }
+  ]
+}
