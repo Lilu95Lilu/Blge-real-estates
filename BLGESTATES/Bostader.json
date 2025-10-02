@@ -31,7 +31,7 @@
     "kbeskrivning": "Lyxvilla på Västkusten",
     "beskrivning": "Exklusiv villa med havsutsikt, pool, spa och stor terrass. Unikt läge.",
     "pris": 12500000,
-    "bild": "https://example.com/images/villa-vastkusten.jpg",
+    "bild": "https://images.pexels.com/photos/87223/pexels-photo-87223.jpeg",
     "kontakt": "0730123456"
   },
   {
@@ -40,7 +40,7 @@
     "kbeskrivning": "Mysig fjällstuga i Sälen",
     "beskrivning": "Trästuga nära skidbackarna med öppen spis, bastu och 8 bäddar.",
     "pris": 1950000,
-    "bild": "https://example.com/images/fjallstuga-salen.jpg",
+    "bild": "https://images.pexels.com/photos/13203194/pexels-photo-13203194.jpeg",
     "kontakt": "0730123456"
   },
   {
@@ -49,7 +49,7 @@
     "kbeskrivning": "Vindsvåning i Göteborg",
     "beskrivning": "Unik vindsvåning med takbjälkar, öppen planlösning och utsikt över staden.",
     "pris": 6700000,
-    "bild": "https://example.com/images/vindsvaning-goteborg.jpg",
+    "bild": "https://images.pexels.com/photos/8082319/pexels-photo-8082319.jpeg",
     "kontakt": "0730123456"
   },
   {
@@ -58,7 +58,7 @@
     "kbeskrivning": "Radhus i Uppsala",
     "beskrivning": "Familjevänligt radhus med tre sovrum, egen trädgård och garage.",
     "pris": 4100000,
-    "bild": "https://example.com/images/radhus-uppsala.jpg",
+    "bild": "https://images.pexels.com/photos/4258275/pexels-photo-4258275.jpeg",
     "kontakt": "0730123456"
   },
   {
@@ -67,7 +67,7 @@
     "kbeskrivning": "Sekelskifteslägenhet i Örebro",
     "beskrivning": "Vacker lägenhet med kakelugnar, högt i tak och originaldetaljer.",
     "pris": 3600000,
-    "bild": "https://example.com/images/sekelskifte-orebro.jpg",
+    "bild": "https://images.pexels.com/photos/26601041/pexels-photo-26601041.jpeg",
     "kontakt": "0730123456"
   },
   {
@@ -76,7 +76,7 @@
     "kbeskrivning": "Fritidshus på Gotland",
     "beskrivning": "Sommarhus med stor altan, närhet till stranden och lantlig charm.",
     "pris": 2300000,
-    "bild": "https://example.com/images/fritidshus-gotland.jpg",
+    "bild": "https://images.pexels.com/photos/34118390/pexels-photo-34118390.jpeg",
     "kontakt": "0730123456"
   },
   {
@@ -85,7 +85,7 @@
     "kbeskrivning": "Studentlägenhet i Lund",
     "beskrivning": "Smart planerad etta nära universitetet, perfekt för studenter.",
     "pris": 1250000,
-    "bild": "https://example.com/images/student-lund.jpg",
+    "bild": "https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg",
     "kontakt": "0730123456"
   },
   {
@@ -94,7 +94,7 @@
     "kbeskrivning": "Villa i Västerås",
     "beskrivning": "Stor villa med fem sovrum, dubbelgarage och närhet till skola.",
     "pris": 4900000,
-    "bild": "https://example.com/images/villa-vasteras.jpg",
+    "bild": "https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg",
     "kontakt": "0730123456"
   },
   {
@@ -103,7 +103,7 @@
     "kbeskrivning": "Penthouse i Norrköping",
     "beskrivning": "Lyxig toppvåning med panoramautsikt, stor takterrass och exklusiva material.",
     "pris": 8800000,
-    "bild": "https://example.com/images/penthouse-norrkoping.jpg",
+    "bild": "https://images.pexels.com/photos/34102062/pexels-photo-34102062.jpeg",
     "kontakt": "0730123456"
   },
   {
@@ -112,7 +112,7 @@
     "kbeskrivning": "Torparstuga i Småland",
     "beskrivning": "Rustik stuga med vedeldad spis, fruktträdgård och lugnt läge.",
     "pris": 1600000,
-    "bild": "https://example.com/images/torp-smaland.jpg",
+    "bild": "https://images.pexels.com/photos/34040645/pexels-photo-34040645.jpeg",
     "kontakt": "0730123456"
   },
   {
@@ -121,7 +121,7 @@
     "kbeskrivning": "Modern villa i Linköping",
     "beskrivning": "Nybyggd villa med energieffektiva lösningar, pool och öppen planlösning.",
     "pris": 7200000,
-    "bild": "https://example.com/images/villa-linkoping.jpg",
+    "bild": "https://images.pexels.com/photos/34067925/pexels-photo-34067925.jpeg",
     "kontakt": "0730123456"
   },
   {
@@ -130,7 +130,7 @@
     "kbeskrivning": "Skärgårdshus i Stockholm",
     "beskrivning": "Hus på ö med egen brygga, båtplats och fantastisk havsutsikt.",
     "pris": 9500000,
-    "bild": "https://example.com/images/skargard-stockholm.jpg",
+    "bild": "https://images.pexels.com/photos/34030968/pexels-photo-34030968.jpeg",
     "kontakt": "0730123456"
   }
 ]

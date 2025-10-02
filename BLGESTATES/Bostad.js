@@ -1,3 +1,4 @@
+// objekt konstruktor för våra bostäder
 export class Bostad {
   constructor(id, titel, bild, beskrivning, pris, kontakt, kbeskrivning) {
     this.id = id;

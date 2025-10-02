@@ -1,26 +1,28 @@
+// importerar Bostad klassen
 import { Bostad } from "./Bostad.js";
-
+// modell för bostäder
 export class ModelBostad {
+  // skapar tomma arrays för bostäder, FAQ och tooltip
   constructor() {
     this.bostader = [];
     this.faq = [];
     this.tooltip = [];
   }
-
+  // hämtar bostäder från JSON fil och skapar instanser av Bostad klassen
   async hamtaBostader() {
     try {
       const response = await fetch('Bostader.json');
       if (!response.ok) {
         throw new Error('Nätverksfel' + response.status);
       }
-      // Omvandla svaret till JSON
+      // omvandla svaret till JSON
       const data = await response.json();
-
+      // arrow funktion för att skapa nya instanser av Bostad klassen med data från JSON filen
       this.bostader = data.Bostader.map(bostad =>
         new Bostad(bostad.id, bostad.titel, bostad.bild, bostad.beskrivning, bostad.pris, bostad.kontakt, bostad.kbeskrivning));
-
+      // skickar tillbaka arrayen med bostäder
       return this.bostader;
-
+      // om det blir fel vid fetch
     } catch (error) {
       console.error('Fel vid hämtning av bostäder:', error);
       return [];
@@ -79,7 +81,7 @@ export class ModelBostad {
       return [];
     }
   }
-
+  // Hittar en bostad baserat på id
   hitta(id) {
     return this.bostader.find(bostad => bostad.id === id);
   }

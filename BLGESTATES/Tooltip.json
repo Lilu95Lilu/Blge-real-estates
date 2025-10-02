@@ -2,17 +2,17 @@
   "Tooltip": [
     {
       "id": 1,
-      "titel": "Pil",
+      
       "innehall": "Klicka på pilarna för att navigera mellan bostäderna i karusellen."
     },
     {
       "id": 2,
-      "titel": "Indikatorer",
+      
       "innehall": "Klicka på indikatorerna för att hoppa direkt till en specifik bostad i karusellen."
     },
     {
       "id": 3,
-      "titel": "Bostadsinformation",
+      
       "innehall": "Klicka på knappen för att se mer information om bostaden."
     }
   ]
